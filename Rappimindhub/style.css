@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+background-image:url(./imagenes/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*Barra de Navegacion*/
+.navegador {
+    background-color: rgb(8, 1, 1);
+    border: 1px solid #544bca;
+    border-radius: 40px;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10vw;
+    height: 10vw;
+    align-self: center;
+    background-image: url(./imagenes/logo.png);
+    background-position: 50% center;
+    background-size: cover;
+}
+
+.contenedor_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.9vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    background-color: crimson;
+    margin-right: 0.5vw;
+    border: solid;
+    border-radius: 15px;
+}
+
+/*Fin barra de Navegacion*/
+
+/* h1 */
+.titulo h1 {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+}
+
+/* Fin h1*/
+
+.piedepag{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor_main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner {
+    background-image: url(./imagenes/icecream.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-color: black;
+    width: 22vw;
+    height: 35vh;
+}
+
+.parrafo1 {
+    font-style: italic;
+    display: flex;
+    border: solid black;
+    width: 22vw;
+    height: 35vh;
+    text-align: center;
+}
+
+.contenedor-fotos {
+
+    display: flex;
+    margin-left: 20vw;
+    flex-wrap: nowrap;
+    height: 22vw;
+    margin-bottom: 4vw;
+    margin-top: 6vh;
+}
+
+.contenedor-fotos2 {
+    display: inline-flex;
+    width: 19vw;
+}
+
+.contimg {
+    transition: all 1s;
+    transform-origin: center center;
+}
+.contimg:hover {
+    transform: scale(1.25);
+}
+
+.img-1 {
+    height: 22vw;
+    background-image: url(./imagenes/pancakes-ice.jpg);
+    background-position: 50% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform-origin: left center;
+}
+
+.img-2 {
+    background-image: url(./imagenes/redcream.jpg);
+    background-position: 50% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform-origin: left center
+}
+
+.img-3 {
+    background-image: url(./imagenes/strawberry.jpg);
+    background-position: 50% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform-origin: left center
+}
+
+
+/*********************************** AboutUs******************************/
+
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner2 { 
+    border-style: solid;
+    border-color: black;
+    width: 25vw;
+    height: 35vh;
+    }
+
+.section1{
+    border: solid;
+    border-color: black;
+    width: 25vw;
+    height: 35vh;
+}
+
+.parrafo2{
+    text-align: justify;
+    padding: 5px;
+}
+
+/********************************Contact************************************/
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.datoscontacto{
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp {
+    font-size: 2.5vw;
+    font-weight: bold;
+    align-items: center;
+    padding: 1.5vw;
+    margin: 3vw;
+    border: 2px solid #6b750c;
+    border-radius: 50px;
+    background-color: #c6a279;
+    display: flex;
+  }
+  
+  .whatsapp:hover {
+    color: white;
+    background-color: rgb(76, 110, 11);
+  }
+  
+  .whatsappa {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .whatsappimg {
+    border-radius: 30px;
+    width: 8vw;
+    height: 12vh;
+  }
+  /* +++++++formulario email++++++*/
+
+  .contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+  }
+  
+  
+  input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+  
+  
+  label {
+    display: block;
+    float: center;
+  }
+  
+  
+  button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+  }
+  
+  
+  button p {
+    color: #fff;
+  }
+  
+  
+  span {
+    color: #ab4493;
+  }
+  
+  
+  .aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+  }
+  
+  
+  h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #ab4493;
+  }
+  
+  
+  h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+  }
+  
+  
+  p {
+    font-size: 14px;
+    color: #0e0e0e;
+  }
+  
+  
+  ::-webkit-input-placeholder {
+    color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+  }
+
+  /*----------------------More Information------------*/
+
+
+.tabla1{
+    display: flex;
+    justify-content: center;
+}
+
+.table tr,  td,  th {
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 15vh;
+    border: 1px solid;
+    border-color: black;
+    border-style: double;
+    background-color: grey;
+  }
+  
+  /*--------------------BenefitsTips -----------------------------------*/
+
+  .imginf1 {
+
+    height: 150px;
+    width: 150px;
+  }
+  
+  .imginf2 {
+  
+    height: 150px;
+    width: 150px;
+  }
+  
+  .contenedorb {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    border-color: #0e0e0e;
+    height: 35vh;
+    width: 80vw;
+  }
+  
+  .contenedorb2 {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    border-color: #0e0e0e;
+    height: 35vh;
+    width: 80vw;
+  }
+  
+ .article1{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+ }
+  
+ /**************************raffle**********************/
+
+ iframe {
+    width: 25vw;
+    height: 50vh;
+  }
+  
+  .contendorform {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mapa {
+    width: 25vw;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
+  }
+  
+  .titulomapa {
+    font-size: 2.7vw;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: white;
+  }
+  
+  .contenedorform2 {
+    height: 130vh;
+    background-color: gray;
+    width: 55vw;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-right: 6vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  label {
+    font-weight: bold;
+    color: white;
+    font-size: small;
+  }
+  
+  input,
+  select {
+    margin-bottom: 10px;
+    width: 36vw;
+    height: 6vh;
+    font-size: small;
+  }
+  
+  option {
+    text-align: center;
+  }
+  
+  .payment {
+    margin-bottom: 1vh;
+  }
+  
+  #cash,
+  #credit-card,
+  #debit-card {
+    width: 2vw;
+    height: 2vw;
+    margin-bottom: 0;
+    margin-left: 2vw;
+  }
+  
+  .cash,
+  .credit-card,
+  .debit-card {
+    font-size: small;
+  }
+  
+  #debit-card {
+    margin-bottom: 1vh;
+  }
+  
+  #cash {
+    margin-top: 1vh;
+  }
+  
+  #text {
+    width: 36vw;
+    height: 12vh;
+    font-size: small;
+    padding: 1vw;
+    margin-bottom: 1vh;
+  }
+  
+  #terms-conditions {
+    width: 2vw;
+    height: 2vh;
+    margin-top: 1vh;
+    margin-left: -5vw;
+  }
+  
+  .send {
+    height: 5vh;
+    width: 8vw;
+    margin-left: 1vw;
+    border: 2px solid #0a0003;
+    border-radius: 2vw;
+    background-color: #110157;
+    color: rgb(86, 186, 204);
+    font-weight: bold
+  }
+  
+  .send:hover {
+    color: #0f104d;
+    background-color: rgb(148, 13, 13);
+  }
+
+/************************** Media Querry***************/

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagenes/favicon.ico" type="imagenes/ico" sizes="16x16">
+</head>
+
+<body>
+    <header>
+        <nav class="navegador">
+            <div class="contenedor_nav">
+                <a class="a" href="./index.html">Home</a>
+                <a class="a" href="./aboutus.html">About Us</a>
+                <a class="a" href="#">Contact</a>
+                <a class="a" href="./information.html">More Information</a>
+                <a class="a" href="./benefitsTips.html">Benefits and Tips</a>
+                <a class="a" href="./raffle.html">Raffle</a>
+            </div>
+            <div class="logo"> </div>
+        </nav>
+
+        <div class="titulo">
+            <h1>Snowy Cream Shop</h1>
+        </div>
+    </header>
+    <main>
+        <div class="contacto">
+            <p class="datoscontacto">You can request delivery to our email or phone
+                <br>
+                Email snowycream@m.com
+                <br>
+                Order Yourcontact Cream
+                <br>
+                Phone 0112331
+            </p>
+        </div>
+
+        <div class="whatsapp">
+            <img class="whatsappimg" src="./imagenes/whatsapp.png" alt="Logo Whatsapp">
+            <a class="whatsappa" href="https://wa.me/0112331" target="_blank"> Contact for Whatsapp</a>
+        </div>
+
+        <div class="contact_form">
+
+            <div class="formulariomail">
+                <h4>Formulario de contacto</h4>
+                <h5>Escríbenos y en breve los pondremos en contacto contigo</h5>
+
+
+                <form action="submeter-formulario.php" method="post">
+
+
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="required"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="required"
+                            placeholder="Escribe tu Email">
+                    </p>
+
+                    <p>
+                        <label for="telefono" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
+
+
+
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="required"
+                            placeholder="Escribe un asunto">
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="required"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        Enviar
+                    </button>
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>  <div class="piedepag">
+        <h2>Create By Mario Montes</h2>
+    </div></footer>
+</body>
+
+</html>

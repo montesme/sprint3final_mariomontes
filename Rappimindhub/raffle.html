@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagenes/favicon.ico" type="imagenes/ico" sizes="16x16">
+</head>
+
+<body>
+    <header>
+        <nav class="navegador">
+            <div class="contenedor_nav">
+                <a class="a" href="./index.html">Home</a>
+                <a class="a" href="./aboutus.html">About Us</a>
+                <a class="a" href="./contact.html">Contact</a>
+                <a class="a" href="./information.html">More Information</a>
+                <a class="a" href="./benefitsTips.html">Benefits and Tips</a>
+                <a class="a" href="#">Raffle</a>
+            </div>
+            <div class="logo"> </div>
+        </nav>
+
+        <div class="titulo">
+            <h1>Snowy Cream Shop</h1>
+        </div>
+    </header>
+    <main> <div class="contendorform">
+        <div class="mapa">
+        <h4 class="titulomapa">
+            Our location is located at:
+        </h4>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0441008969!2d-118.74137339025394!3d34.02060846900968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1697767519369!5m2!1ses!2sco"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="contenedorform2">
+        <form class="formulario" action="#" method="get">
+            <label for="first-name">First Name</label>
+            <br>
+            <input type="text" id="first-name">
+            <br>
+            <label for="last-name">Last name</label>
+            <br>
+            <input type="text" id="last-name">
+            <br>
+            <label for="plataforms">Choose Meet or Zoom</label>
+            <br>
+            <select name="plataform" id="plataforms">
+                <option value="#">---Selecciona una Opción---</option>
+                <option value="Meet">Meet</option>
+                <option value="Zoom">Zoom</option>
+            </select>
+            
+            <br>
+            <label for="dates">Choose a date</label>
+            <br>
+            <input class="date" type="date" id="dates">
+            <br>
+            <label>Payment Options</label>
+            <br>
+            <input type="radio" id="cash" name="payment" value="CASH">
+            <label class="cash" for="cash">Cash</label>
+            <br>
+            <input type="radio" id="credit-card" name="payment">
+            <label class="credit-card" for="credit-card">Credit Card</label>
+            <br>
+            <input type="radio" id="debit-card" name="payment">
+            <label class="debit-card" for="debit-card">Debit Card</label>
+            <br>
+            <label for="text">Message (Optional)</label>
+            <br>
+            <textarea name="message" id="text"></textarea>
+            <br>
+            <input type="checkbox" name="terms" id="terms-conditions">
+            <label for="terms-conditions"> I accept terms and conditions...</label>
+            <input class="send" type="submit" value="Send">
+
+        </form>
+      
+    </div>
+</div>
+</main>
+    <footer></footer>
+</body>
+</html>
